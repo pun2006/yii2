@@ -347,7 +347,7 @@ class MyForm extends Model
     public function rules()
     {
         return [
-            // встроенный валидатор определяется как модель метода validateCountry()
+            // встроенный валидатор определяется как метод модели validateCountry()
             ['country', 'validateCountry'],
 
             // встроенный валидатор определяется как анонимная функция
